@@ -1,0 +1,235 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-10T05:13:48.334Z",
+    "end": "2021-08-10T05:13:48.363Z",
+    "duration": 29,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3f435a78-f032-4237-a15d-21547b8951a2",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3e312f6f-357a-459b-b1d8-c7e6ec173fca",
+          "title": "reverseText",
+          "fullFile": "C:\\Users\\Pavla\\assigment\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should be reversed",
+              "fullTitle": "reverseText should be reversed",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.reverseText(\"Hello\"), \"olleH\");",
+              "err": {},
+              "uuid": "f3c34318-7ba1-410b-b1ac-0f07373ec294",
+              "parentUUID": "3e312f6f-357a-459b-b1d8-c7e6ec173fca",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be empty",
+              "fullTitle": "reverseText should be empty",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.reverseText(\"\"), \"\");",
+              "err": {},
+              "uuid": "5161e2d3-6ffc-4644-8c56-c0a9c35acaab",
+              "parentUUID": "3e312f6f-357a-459b-b1d8-c7e6ec173fca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f3c34318-7ba1-410b-b1ac-0f07373ec294",
+            "5161e2d3-6ffc-4644-8c56-c0a9c35acaab"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9d250b63-01f9-44a3-8967-8a8cce2f0ce5",
+          "title": "invert",
+          "fullFile": "C:\\Users\\Pavla\\assigment\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "cases should be inverted",
+              "fullTitle": "invert cases should be inverted",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.invertCase(\"Hello\"), \"hELLO\");",
+              "err": {},
+              "uuid": "5296f9b9-04fe-422c-ba59-4fbdff4be36b",
+              "parentUUID": "9d250b63-01f9-44a3-8967-8a8cce2f0ce5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be empty",
+              "fullTitle": "invert should be empty",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.invertCase(\"\"), \"\");",
+              "err": {},
+              "uuid": "81e9de12-725f-4765-8a5e-f0bf723d6eae",
+              "parentUUID": "9d250b63-01f9-44a3-8967-8a8cce2f0ce5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5296f9b9-04fe-422c-ba59-4fbdff4be36b",
+            "81e9de12-725f-4765-8a5e-f0bf723d6eae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "f4bcd057-9d78-40a8-956d-a493f27c7041",
+          "title": "input check",
+          "fullFile": "C:\\Users\\Pavla\\assigment\\test\\test.js",
+          "file": "\\test\\test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should be ok",
+              "fullTitle": "input check should be ok",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.isAlphaNumeric(\"Hello\"), true);",
+              "err": {},
+              "uuid": "ff6c46d8-644e-4b13-b94a-8aea03d13946",
+              "parentUUID": "f4bcd057-9d78-40a8-956d-a493f27c7041",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should be not ok",
+              "fullTitle": "input check should be not ok",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(textOP.isAlphaNumeric(\"Hell◙\"), false);",
+              "err": {},
+              "uuid": "dbeb8d60-aeea-4dc6-9716-88461611961d",
+              "parentUUID": "f4bcd057-9d78-40a8-956d-a493f27c7041",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ff6c46d8-644e-4b13-b94a-8aea03d13946",
+            "dbeb8d60-aeea-4dc6-9716-88461611961d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.0.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

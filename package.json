@@ -1,0 +1,26 @@
+{
+  "name": "assigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "ts-node src/index.ts",
+    "test": "mocha test/test.js --reporter node_modules/mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.13",
+    "chai": "^4.3.4"
+  }
+}
